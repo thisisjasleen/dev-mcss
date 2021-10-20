@@ -4,9 +4,9 @@ metadata:
   name: mc-ssr
   namespace: {{ .Values.global.namespace }}
 spec:
-  path: "/get_all_streams"
   to:
     kind: Service
     name: mcss-mc-ssr
+  path: /get_all_streams
   port:
     targetPort: 8000
