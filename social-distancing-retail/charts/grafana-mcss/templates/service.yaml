@@ -16,7 +16,6 @@ spec:
   type: {{ .Values.service.type }}
   ports:
   - port: {{ .Values.service.port }}
-    nodePort: {{ .Values.service.nodePort }}
   selector:
     app.kubernetes.io/name: grafana
     app.kubernetes.io/instance: grafana-abcxzy

@@ -13,8 +13,6 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: {{ .Values.service.targetPort }}
-      nodePort: {{ .Values.service.nodePort }}
   selector:
     app.kubernetes.io/name: influxdb
     app.kubernetes.io/instance: influxdb-abcxzy

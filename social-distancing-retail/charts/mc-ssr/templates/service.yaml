@@ -9,6 +9,5 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      nodePort: {{ .Values.service.nodePort }}
   selector:
     {{- include "mc-ssr.selectorLabels" . | nindent 4 }}
