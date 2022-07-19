@@ -3,12 +3,12 @@ entries:
   social-distancing-retail:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-26T12:53:07.033264801+05:30"
+    created: "2022-07-19T11:55:04.633411749+05:30"
     description: A Helm chart for Kubernetes
-    digest: 64e237aadd4e9cb0b2081175a2362c61a1f575f5727ad5306ca3671ba9abf8e1
+    digest: 8e432496753c80fdaf1a64398430539da3a037bd6e59a0067def570252f9023d
     name: social-distancing-retail
     type: application
     urls:
     - https://thisisjasleen.github.io/dev-mcss/social-distancing-retail-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-26T12:53:07.031477709+05:30"
+generated: "2022-07-19T11:55:04.632319103+05:30"

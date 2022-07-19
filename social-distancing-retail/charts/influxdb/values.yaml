@@ -9,7 +9,7 @@ image:
   pullPolicy: IfNotPresent
   tag: 1.8
 
-  #namespace: shashanksubrayhegde-intel
+namespace: shashanksubrayhegde-intel
 
 imagePullSecrets: []
 nameOverride: ""
@@ -33,7 +33,6 @@ service:
   type: NodePort
   port: 8086
   targetPort: 8086
-  #nodePort: 30750
 
 ingress:
   enabled: false

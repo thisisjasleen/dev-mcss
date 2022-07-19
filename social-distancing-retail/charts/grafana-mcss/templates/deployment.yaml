@@ -34,16 +34,16 @@ spec:
         env:
           - name: GF_AUTH_BASIC_ENABLED
             value: "true"
-          - name: GF_SECURITY_ADMIN_USER
-            valueFrom:
-              secretKeyRef:
-                name: grafana-mcss
-                key: admin-username
-          - name: GF_SECURITY_ADMIN_PASSWORD
-            valueFrom:
-              secretKeyRef:
-                name: grafana-mcss
-                key: admin-password
+          #- name: GF_SECURITY_ADMIN_USER
+            #valueFrom:
+             # secretKeyRef:
+              #  name: grafana-mcss
+               # key: admin-username
+          #- name: GF_SECURITY_ADMIN_PASSWORD
+           # valueFrom:
+            #  secretKeyRef:
+             #   name: grafana-mcss
+              #  key: admin-password
           - name: GF_AUTH_ANONYMOUS_ENABLED
             value: "true"
         readinessProbe:

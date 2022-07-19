@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: default-route-openshift-image-registry.apps.cfa.devcloud.intel.com/devcloud-ri/mcss_covid19_solution
+  repository: docker.io/jkalapati/sop:new
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   Version: "1.0"
@@ -41,7 +41,6 @@ securityContext: {}
 service:
   type: NodePort
   port: 8000
-  #nodePort: 30350
 
 ingress:
   enabled: false

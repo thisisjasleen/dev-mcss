@@ -39,7 +39,6 @@ securityContext:
 service:
   type: NodePort
   port: 3000
-  #nodePort: 30850
 ingress:
   enabled: false
   annotations: {}
